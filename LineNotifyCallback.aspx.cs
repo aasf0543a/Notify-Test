@@ -17,9 +17,9 @@ namespace WebApplication1
             {
                 //用code換Token
                 var ret = isRock.LineNotify.Utility.GetToeknFromCode(
-                    code, "FkAGRhqEzcte61s2PWjP8b", //ClientID一定要100%對
-                    "i7HJlDONH--------請用你自己的---------X4Ib5wj", //ClientSecret 一定要100%對
-                    "http://localhost:43970/LineNotifyCallback.aspx" //Callback url一定要100%對
+                    code, "uDxoIBod0LePU0UHI82MqR", //ClientID一定要100%對
+                    "9meXMWULRIzVa7TWYJbG2FQHEHXlqQnxNxEW0Rcx06E", //ClientSecret 一定要100%對
+                    "https://lineage0314.herokuapp.com/LineNotifyCallback.aspx" //Callback url一定要100%對
                     );
                 this.TextBox1.Text = ret.access_token;
             }
