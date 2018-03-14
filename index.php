@@ -5,7 +5,7 @@
     <title>Document</title>
 </head>
 <body>
-<h1>LINE Notifyサンプル</h1>
+<h1>LINE Notify</h1>
 
 <ul>
     <li><a href="start_authorize.php">認証開始</a></li>
