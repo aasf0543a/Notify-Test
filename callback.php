@@ -15,17 +15,17 @@ $access_token = $line_notify->requestAccessToken($_GET);
 <?php
 if ($access_token === false) {
     echo "<h1>認証失敗</h1>";
-    echo "<p>以下はデバッグ情報です（通常表示する必要はありません）</p>";
+    echo "<p>The following is debugging information (it is not necessary to display normally)</p>";
     echo "<textarea style='width:100%; height:500px'>";
     echo htmlspecialchars(print_r($line_notify->getLastError(), 1), ENT_QUOTES);
     echo "</textarea>";
 } else {
     echo "<h1>認証成功</h1>";
     echo "<p>access_token <input type='text' style='width:400px' value='" . htmlspecialchars($access_token, ENT_QUOTES) . "'></p>";
-    echo "<p>※上記access_tokenをコピペして送信してください</p>";
+    echo "<p>※Please copy and paste the above access_token</p>";
 }
 ?>
 
-<p><a href="/">トップに戻る</a></p>
+<p><a href="/">Back to top</a></p>
 </body>
 </html>
