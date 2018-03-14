@@ -24,8 +24,8 @@ $_SESSION['csrf_token'] = bin2hex($random_bytes);
 </head>
 <body>
 
-<h1>LINE Notify APIに送信する</h1>
-<p>※ここではaccess_tokenをなげているので、公開するならばhttpsのサイトに設置しましょう</p>
+<h1>LINE Notify API</h1>
+<p>※Send to the LINE Notify API Since we are losing access_token here, let's set it up on https site if you want to publish</p>
 <form action="callme.php" method="post">
     <label>access_token<input name="access_token"></label><br>
     <label>message<textarea name="message">message as you like</textarea></label><br>
@@ -54,6 +54,6 @@ if ($is_execute) { // 実行したか（結果を表示するか
 }
 ?>
 
-<p><a href='/'>トップへもどる</a></p>
+<p><a href='/'>Back to top</a></p>
 </body>
 </html>
