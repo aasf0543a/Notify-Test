@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LineNotifyCallback.aspx.cs" Inherits="WebApplication1.LineNotifyCallback" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LineNotifyCallback.aspx.cs" Inherits="LineNotifyCallback" %>
 
 <!DOCTYPE html>
 
